@@ -20,29 +20,30 @@ Ensure you have the required dependencies installed before running the tests.
 ## Installation
 1.	Clone this repository:
 bash
-Copy code
+:
 git clone <repository-url>
 2.	Navigate to the project directory:
 bash
-Copy code
+:
 cd <repository-name>
 3.	Install dependencies:
 bash
-Copy code
+:
 npm install
 # Running Tests
 1.	Run all tests:
 bash
-Copy code
+:
 npx playwright test
 2.	Run tests with detailed output:
 bash
-Copy code
+:
 npx playwright test --reporter=list
 3.	Open the test report after execution:
 bash
-Copy code
+:
 npx playwright show-report
+
 #Notes
 The API URL is set to https://restful-api.dev/objects. Update it in the code if required.
 Ensure the API server is up and accessible.
